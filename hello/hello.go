@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example/greetings"
+	"example.com/greetings"
 
 	"rsc.io/quote"
 )

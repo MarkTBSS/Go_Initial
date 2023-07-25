@@ -1,7 +1,7 @@
 [Create a Go module]
 - go mod init github.com/test/test.git // same url if want to public module 
 // [new module directory]
-- go mod edit -replace example.com/greetings=../greetings [main directory]
+- go mod edit -replace example/greetings=../greetings [main directory]
 ===== call local module ====
 import (
 	"fmt"
