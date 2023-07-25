@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	var message string
-	message = greetings.Hello("Gladys")
+	//var message string
+	message := greetings.Hello("Mark")
 	fmt.Println(message)
 	fmt.Println(quote.Go())
 }

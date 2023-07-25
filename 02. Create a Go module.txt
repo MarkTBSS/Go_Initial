@@ -16,3 +16,4 @@ func main() {
 }
 =============================
 - go mod tidy
+- go work use ./main ./package_name
