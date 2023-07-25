@@ -1,0 +1,26 @@
+[Get started with Go]
+- git repository create // example github.com/test/test.git
+- clone git directory to local 
+- cd directory
+- go version // check version
+- go mod init github.com/test/test.git // same url if want to public module
+===== Start Code =====
+package main
+
+import (
+	"fmt"
+
+	"rsc.io/quote"
+)
+
+func main() {
+	fmt.Println(quote.Go())
+}
+=======================
+- "fmt" // internal package
+--> standard librayy --> https://pkg.go.dev/std
+- "rsc.io/quote" // external package
+--> qoute package --> https://pkg.go.dev/search?q=quote
+--> search package --> https://pkg.go.dev/
+- go mod tidy // to find module
+- go run . // to run module
