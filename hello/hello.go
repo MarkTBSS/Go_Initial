@@ -18,8 +18,6 @@ func main() {
 	//var message string
 	//var err error
 	//var message, err = greetings.Hello("Mark")
-
-	// Request greeting messages for the names.
 	//var messages = []string
 	messages, err := greetings.Hellos(names)
 
