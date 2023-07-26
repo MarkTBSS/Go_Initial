@@ -1,0 +1,9 @@
+[Compile and install the application]
+- package main directory
+- go build
+--> Powershell $ ./hello
+--> CMD $ hello.exe
+
+- go env -w GOBIN=C:\path\to\your\bin //set path to paste .exe
+- go list -f '{{.Target}}'
+- go install
