@@ -16,6 +16,7 @@ func main() {
 }
 =============================
 - go mod tidy
+- go work init
 - go work use ./package_name ./package_name
 - go work sync
 - go run main_package_name
